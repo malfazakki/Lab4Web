@@ -57,5 +57,4 @@ $result = mysqli_query($conn, $sql);
             </table>
         </div>
     </div>
-</body>
-</html>
+<?php require 'footer.php' ?>
