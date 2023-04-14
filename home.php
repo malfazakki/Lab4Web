@@ -26,7 +26,7 @@ $result = mysqli_query($conn, $sql);
                 <?php if ($result) : ?>
                     <?php while ($row = mysqli_fetch_array($result)) : ?>
                         <tr>
-                            <td><img src="gambar/<?php echo $row["gambar"]; ?>" alt="<?php echo $row["nama"]; ?> "></td>
+                            <td><img src="gambar/<?php echo $row["gambar"]; ?>" alt="<?php echo $row["gambar"]; ?> "></td>
                             <td><?= $row["nama"]; ?></td>
                             <td><?= $row["kategori"]; ?></td>
                             <td><?= $row["harga_beli"]; ?></td>
