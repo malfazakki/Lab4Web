@@ -1,6 +1,6 @@
 <?php
-if (isset($_GET['mod'])) {
-    $mod = $_GET['mod'];
+if(isset($_REQUEST['mod'])) {
+    $mod = $_REQUEST['mod'];
     switch ($mod) {
         case "home":
             require("home.php");

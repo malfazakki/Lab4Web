@@ -1,7 +1,7 @@
-</nav>
-        <footer>
-            <p>&copy; 2023, Informatika, Universitas Pelita Bangsa</p>
-        </footer>
-    </div>
+<footer>
+    <p>&copy;2023-MALFAZAKKI</p>
+</footer>
+</div>
 </body>
+
 </html>
